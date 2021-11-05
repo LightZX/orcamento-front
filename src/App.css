@@ -1,0 +1,67 @@
+.table-style {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.pointer :hover{
+  color: rgb(0, 255, 34);
+}
+
+.deleteButton {
+  cursor: pointer;
+}
+
+.deleteButton :hover{
+  color: rgb(255, 0, 0);
+}
+
+.form-box{
+  margin-top: 2%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.form-lite {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.form {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form-button {
+  margin-bottom: 10px;
+}
+
+.descricao-body{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  margin-left: 5%;
+  width: 500px;
+  padding: 40px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+}
+
+.header {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+  justify-content: space-between;
+}
